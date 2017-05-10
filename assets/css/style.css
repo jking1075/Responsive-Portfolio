@@ -12,7 +12,7 @@ body {
 .container {
 
 	 width: 100%;
-	 
+
 	 }
 
 .header {
@@ -41,6 +41,7 @@ body {
 }
 
 .NestedHeader {
+
 	padding: 0px;
   	margin-top: 0px;
   	margin-left: 0px;
@@ -48,8 +49,7 @@ body {
   	margin-right: 0px;
   	color: #777;
   	background-color: : #ffffff;
-  	text-align: center;
-  	
+  	text-align: center;  	
 
 }
 
@@ -99,9 +99,10 @@ body {
 	margin-top: 20px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	border-color: #dddddd;
+	
+	/*border-color: #dddddd;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 5px;*/
 
 }
 
@@ -119,10 +120,10 @@ body {
 }
 
 h2 {
+
 	color: #4aaaa5;
     text-align: left;
     padding-left: 10px;
-    
 }
 
 .bio-text {
@@ -164,6 +165,11 @@ line-height: 25px;
     margin-top: 50px;
 }
 
+.IndexPage {
+
+
+}
+
 .portfolio-link {
 
     color: #ffffff;
@@ -195,6 +201,28 @@ line-height: 25px;
     margin-left: 50px;
     background-size: 100% auto;
 
+}
+
+.main-box {
+	 border-top: solid 5px #4aaaa5;
+}
+
+form {
+
+	float: left;
+	margin: 25px;
+	text-align: left;
+	width: 100%;
+
+}
+
+textarea {
+	width:550px;
+}
+
+button {
+	float: left;
+	margin: 25px;
 }
 
 footer {
