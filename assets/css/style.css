@@ -1,0 +1,214 @@
+/*Style Sheet
+HMWK1.css for My Bio*/
+
+body {
+	
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url('cloth.png');
+    width: 960;
+}
+
+.container {
+
+	 width: 100%;
+	 
+	 }
+
+.header {
+
+	float: fixed;
+	width: 100%;
+	height: 85px;
+	background-color: #ffffff;
+	padding: 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-bottom: solid 5px #cccccc;
+
+	 
+}
+
+#navigation {
+	background-color: #ffffff ;
+	float: right;
+	margin-right: 150px;
+	margin-top: 30px;
+
+}
+
+.NestedHeader {
+	padding: 0px;
+  	margin-top: 0px;
+  	margin-left: 0px;
+  	margin-bottom: 0px;
+  	margin-right: 0px;
+  	color: #777;
+  	background-color: : #ffffff;
+  	text-align: center;
+  	
+
+}
+
+#NameTag {
+	float: left;
+	width: 200px;
+	padding: 0px;
+	margin-top: 0px;
+  	margin-left: 30px;
+  	margin-bottom: 10px;
+  	margin-right: 10px;
+	color: #ffffff;
+  	background-color: #4aaaa5;
+  	text-align: center;
+
+}
+
+#bio-image {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+
+}
+
+#linkedin {
+	height: 50px;
+	width: 50px;
+}
+
+#stackedoverflow {
+	height: 50px;
+	width:  50px;
+
+}
+
+#github {
+	height: 50px;
+	width: 50px;
+}
+
+#main {
+	 
+	background-color: #ffffff;
+    float: left;
+	width: 650px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 5px;
+
+}
+
+#contact-info {
+
+	background-color: #ffffff;
+	width: 260px;
+	height: 200px;
+	float: left;
+    text-align: center;
+    margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+}
+
+h2 {
+	color: #4aaaa5;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+.bio-text {
+padding: 05px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 18px;
+text-align: left;
+line-height: 25px;
+
+}
+
+.row1 {
+
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    margin-top: 25px;
+}
+
+.row2 {
+
+	position: relative;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    margin-top: 50px;
+}
+
+.row3 {
+
+	position: relative;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    margin-top: 50px;
+}
+
+.portfolio-link {
+
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.portfolio-tag {
+
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+    bottom: 0px;
+    font-size: 1.3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    border-top: solid 2px #ffffff;
+
+}
+
+.portfolio-badge {
+	float: left;
+    position: relative;
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+    background-size: 100% auto;
+
+}
+
+footer {
+
+	clear:both;
+	position: relative;
+	margin: 0px;
+	bottom: -200px;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	background: #666666;
+    border-top: solid 5px #4aaaa5;
+    text-align: center;
+    padding-top: 20px;
+    color: lightgrey;
+}
