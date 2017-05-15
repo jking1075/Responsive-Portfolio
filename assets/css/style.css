@@ -1,11 +1,19 @@
 /*Style Sheet
 HMWK1.css for My Bio*/
 
+
+
+/*media query here!*/
+/*@media screen and (maxwidth: 768px) {
+	div {
+		background-color: red;
+	}
+*/
 body {
 	
 	color:#777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url('cloth.png');
+	/*background-image: url('cloth.png');*/
     width: 960;
 }
 
@@ -95,10 +103,10 @@ body {
 	 
 	background-color: #ffffff;
     float: left;
-	width: 650px;
 	margin-top: 20px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	width: 600px;
 	
 	/*border-color: #dddddd;
 	border-style: solid;
@@ -239,4 +247,14 @@ footer {
     text-align: center;
     padding-top: 20px;
     color: lightgrey;
+}
+ 
+@media screen and (max-width: 740px) {
+    
+    body {
+        background-color: lightgreen;
+    }
+    .wrapper {
+    	width: 600px;
+    }
 }
